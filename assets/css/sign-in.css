@@ -1,0 +1,77 @@
+/* 
+    Created on : Feb 24, 2019, 11:17:33 AM
+    Author     : Ruwan Jayawardena
+*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+html {
+    height: 100%;
+}
+
+.text-muted{
+    color: #bfbfbf!important;
+}
+
+body {
+
+    /*light color*/    
+    background-image: linear-gradient(45deg,#770606,#006880);
+    /*background-image: linear-gradient(to right top, #a08f1f, #868930, #71813f, #61784a, #576d52);*/
+    /*background-image: linear-gradient(to right top, #ffb900, #96b62b, #36a35d, #00877a, #006776);*/
+    color: #352c0f;   
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-signin{
+    padding-top: 50px !important;       
+}
+
+form-signin h3{
+    color: #352c0f;
+}
+
+.form-signin .form-control:focus {
+    background-color:#000000a1 !important;
+    border-color: 2px solid #4a2140 !important;
+    color: white !important;
+}
+
+.form-signin .form-control {
+    color: white !important;
+    background-color: #ffffff73 !important;
+    border: 1px solid transparent !important;
+}
+.form-signin .form-control::placeholder{
+    color: lightgrey !important;
+
+}
+
+.systemlogo{
+    width: 80px;
+    height: 114px;
+}
+
+.logoHeading{
+    padding-top: 8%;
+}
+
+h1{
+    color: #ffffffc7;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+h1 small{
+    color: #f5d074;
+    text-transform: uppercase;
+    font-size: 20pt;
+    letter-spacing: 7.5px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+}
+
